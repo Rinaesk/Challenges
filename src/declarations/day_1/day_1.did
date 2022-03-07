@@ -1,0 +1,5 @@
+service : {
+  days2sec: (nat) -> (nat);
+  square: (nat) -> (nat);
+  sum: (nat, nat) -> (nat);
+}

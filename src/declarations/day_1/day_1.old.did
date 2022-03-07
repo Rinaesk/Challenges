@@ -1,0 +1,4 @@
+service : {
+  square: (nat) -> (nat);
+  sum: (nat, nat) -> (nat);
+}
