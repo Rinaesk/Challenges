@@ -1,5 +1,12 @@
 service : {
+  clear_counter: () -> (nat);
   days2sec: (nat) -> (nat);
+  divide: (nat, nat) -> (bool);
+  inc: (nat) -> (nat);
+  is_even: (nat) -> (bool);
+  max: (vec nat) -> (nat);
+  remove_from_array: (vec nat, nat, nat) -> (vec nat);
   square: (nat) -> (nat);
   sum: (nat, nat) -> (nat);
+  sum_of_array: (vec nat) -> (nat);
 }
